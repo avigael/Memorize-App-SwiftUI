@@ -38,32 +38,32 @@ struct ContentView: View {
             Button(action: {
                 viewModel.chooseTheme(0)
             }) {
-                Image(systemName: "1.circle")
+                Image(systemName: "1.circle").foregroundColor(.yellow)
             }
             Button(action: {
                 viewModel.chooseTheme(1)
             }) {
-                Image(systemName: "2.circle")
+                Image(systemName: "2.circle").foregroundColor(.blue)
             }
             Button(action: {
                 viewModel.chooseTheme(2)
             }) {
-                Image(systemName: "3.circle")
+                Image(systemName: "3.circle").foregroundColor(.green)
             }
             Button(action: {
                 viewModel.chooseTheme(3)
             }) {
-                Image(systemName: "4.circle")
+                Image(systemName: "4.circle").foregroundColor(.red)
             }
             Button(action: {
                 viewModel.chooseTheme(4)
             }) {
-                Image(systemName: "5.circle")
+                Image(systemName: "5.circle").foregroundColor(.pink)
             }
             Button(action: {
                 viewModel.chooseTheme(5)
             }) {
-                Image(systemName: "6.circle")
+                Image(systemName: "6.circle").foregroundColor(.orange)
             }
         }
     }
